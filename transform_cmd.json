@@ -1,0 +1,23 @@
+{
+   "input":{
+      "name":"QA.SMS.MCBK.SG1QNOBK.DSERV.CSV.EBC.FB",
+      "type":"backup",
+      "entry": "0",
+      "prefix":"model9",
+      "complex":"group-ADCDPL",
+      "recordCharset":"IBM-1047",
+      "archive": "false"
+   },
+   "output":{
+      "format":"JSON",
+      "compression" : "none",
+      "prefix":"interview"
+   },
+   "source":{
+      "url":"https://s3.amazonaws.com",
+      "api":"aws-s3",
+      "bucket":"interview-model9-michael",
+      "user":"AKIAUCLIU6ZKAGQ4MVPV",
+      "password":"0N/hu1oSJG1l/yKVOdCeWdXOx5ssVlEpGWKtmtM7"
+   }
+}
